@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+    </head>
+    <body>
+        <main>
+            <div>
+                <h1>bitte füllen Sie dieses Formular aus</h1>
+            </div>
+            <form>
+                <!-- champ nom -->
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom">
+            
+                <!-- champ email -->
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Votre email">
+                
+                <select id="films" name="films">
+                    <option value="batman">Batman</option>
+                    <option value="seigneur-des-anneaux">Le seigneur des anneaux</option>
+                    <option value="titanic">Titanic</option>
+                </select>
+                <input type="checkbox" id="accepter" name="accepter">
+
+                <label>Préférence de couleur :</label>
+                <input type="radio" id="red" name="couleur" value="red" checked>
+                <label for="red">Rouge</label>
+                <input type="radio" id="blue" name="couleur" value="blue">
+                <label for="blue">Bleu</label>
+                <input type="radio" id="green" name="couleur" value="green">
+                <label for="green">Vert</label>
+                <!-- bouton de validation -->
+                <button>Envoyer</button>
+            </form>
+        </main>
+    </body>
+    <script src="script.js"></script>
+</html>
