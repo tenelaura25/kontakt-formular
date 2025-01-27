@@ -22,6 +22,16 @@ const form = document.querySelector('form');
         break
     }
    }
+   //on affiche les valeurs dans le html
+   let affichage = document.getElementById("affichage-daten");
+   let nomN = `${nom}`;
+   let emailE= `${email}`;
+   let filmF = `${film}`;
+   affichage.innerText = nomN;
+   affichage.innerText = emailE;
+   affichage.innerText = filmF;
+
+
    //on fait la verification pour savoir si les champs sont vide ou pas
    if(nom === "")
    {
